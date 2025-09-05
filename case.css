@@ -47,27 +47,7 @@ ul{
    padding: 5px;
    border-radius: 10px;
 }
-.picture_1 img{
-    
-    width: 1200px;
-    height: 700px;
-    background-image: url('C:/Users/pc/Desktop/Portfolio/Images/Code_1.png');
-    background-size: cover;
-}
-.picture_2 img{
-  
-    width: 1200px;
-    height: 700px;
-    background-image: url('C:/Users/pc/Desktop/Portfolio/Images/Code_2.png');
-    background-size: cover;
-}
-.picture_3 img{
-    
-    width: 1200px;
-    height: 700px;
-    background-image: url('C:/Users/pc/Desktop/Portfolio/Images/Code_3.png');
-    background-size: cover; 
-}
+
 
 .section_1{
     display: flex;
