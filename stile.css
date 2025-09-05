@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    width: 100vw;
+    
+}
+
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    width: 100%;
+}
+
+.nav{
+
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    
+ 
+    
+    
+}
+.nav li{    
+    
+    display: inline;
+
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+
+.name{
+   
+    margin-right: 0;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.cs{
+    
+    
+    gap: 0;
+   
+    
+}
+
+.button{
+    
+    color: #fff;
+    background-color: black;
+border: 1px solid black;
+border-radius: 12px;
+padding: 10px 15px;
+text-decoration: none;
+}
+.button:hover{
+    background-color: dimgray;
+    color: black;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.dd{
+   width: 150px;
+    height: 150px;
+    border-radius: 100%; 
+}
+.box{
+    width: 100%;
+   padding: 24px 104px;
+    margin: 2rem; 
+   
+}
+.box-2{
+    padding: 24px 104px;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 100%;
+}
+.text{
+   
+   
+    font-size: 30px;
+    
+}
+
+.ti{
+    
+}
+/* .ima{
+    margin-left: 70px;
+    width: 1200px;
+    height: 350px;
+    background-image: url('C:/Users/pc/Desktop/Portfolio/Images/City.png');
+    background-size: cover;
+}
+ */
+
+
+.bind{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+.bind img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.design{
+    display: flex;
+    gap: 1rem;
+    margin: 2rem;
+    padding: 24px 104px;
+   
+}
+.design >div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design img{
+    width: 20px;
+    height: 20px;
+}
+.foot{
+ background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    
+}
+.on{
+color: #fff;
+background-color: black;
+border: 1px solid black;
+border-radius: 12px;
+padding: 10px;
+display: flex;
+text-decoration: none; 
+}
+
+.Link{
+    
+    
+    text-decoration: none;
+    color: #fff;
+   
+}
+
+
+.li{
+    background-color: #000;
+    padding: 5px;
+    border-radius: 10px;
+}
+ @media screen and (max-width:750px) {
+
+header{
+   
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    width: 100%;
+}
+
+.ft{
+    padding-left: 5px;
+
+}
+    .text{
+   
+   width: 100%;
+    font-size: 25px;
+    
+}
+    .dd{
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+   
+}
+      .box{
+    width: 100%;
+    padding: 1rem;
+    margin: 0rem;
+    margin-top: 0;
+    
+} 
+
+.box-2{
+width: 100%;
+margin: 0;
+padding: 1rem;
+}
+
+.bind{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 1rem;
+    margin: 0;
+}
+.right-side{
+    margin: 0;
+    width: 100%;
+    gap: 0.3rem;
+}
+.right-side p{
+    
+font-size: 15px;
+
+margin: 0;
+} 
+.right-side button{
+    padding: 5px 8px;
+    font-size: 15px;
+}
+.bind img{
+    width: 160px;
+    height: 160px;
+    
+}
+.img{
+   
+}
+
+.li{
+    background-color: #000;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.design{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin: 0rem;
+    padding: 1rem;
+   
+}
+.design >div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.shape-space{
+    gap: 0.5rem;
+}
+
+    }
